@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple Tree Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="tree">
+        <div class="apple" onclick="showQuestion(0)">🍏</div>
+        <div class="apple" onclick="showQuestion(1)">🍎</div>
+        <!-- Add more apples here -->
+    </div>
+    <div id="question-box" class="hidden">
+        <h2>Question 1</h2>
+        <p>What color is the sky?</p>
+        <button onclick="answerQuestion('blue')">Blue</button>
+        <button onclick="answerQuestion('green')">Green</button>
+    </div>
+    <!-- Add more questions here -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.tree {
+    font-size: 36px;
+}
+
+.apple {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#question-box {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
